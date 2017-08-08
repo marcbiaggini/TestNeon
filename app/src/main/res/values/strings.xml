@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestNeon</string>
+    <string name="title_activity_contact">Enviar Dinheiro</string>
+    <string name="title_activity_historic">Historico de Envios</string>
+    <string name="name">Juan Camilo Villa</string>
+    <string name="email">marcbiaggini@gmail.com</string>
+    <string name="money">R$ 0.00</string>
+    <string name="enviar_dinheiro">Enviar</string>
+    <string name="transfer_success">Transferencia realizada com sucesso!</string>
+    <string name="transfer_failure">Transferencia não realizada tente de novo!</string>
+    <string name="unknown_error_msg"> Desculpe! Houve um erro inesperado no applicativo.</string>
+    <string name="historico_de_envios">Historico de envios</string>
+    <string name="value_title">Valor a enviar:</string>
+    <string name="no_historic">Não foi realizada nenhuma transferencia!</string>
+
+</resources>

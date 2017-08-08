@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent"
+              android:orientation="vertical"
+              android:gravity="center|bottom"
+              android:padding="@dimen/fab_margin">
+
+    <TextView
+        android:id="@+id/txtMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="@string/app_name"/>
+
+    <RelativeLayout
+        android:id="@+id/amountBar"
+        android:layout_width="10dp"
+        android:layout_height="50dp"
+        android:background="@drawable/progress_bar_vertical">
+
+        <com.example.juanvilla.testneon.Utils.RoundedImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/capsule_button_dark"
+            android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_margin"
+        android:padding="1dp">
+
+        <com.example.juanvilla.testneon.Utils.RoundedImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+</LinearLayout>
