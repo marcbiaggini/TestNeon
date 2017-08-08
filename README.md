@@ -9,3 +9,5 @@
 **ProjectLombok** - https://projectlombok.org/.
 
 **Picasso** - http://square.github.io/picasso/
+
+**Square up Otto** - http://square.github.io/otto/
